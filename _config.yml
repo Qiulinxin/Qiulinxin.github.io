@@ -24,10 +24,12 @@ cusdis:
     app_id: #your cusdis app_id
 
 user:
-  name: Catbook
+  # name: CatboQok
+  name: Qiulinxin
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
-  job: a category-centric theme
+  # job: a category-centric theme
+  job: student
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
