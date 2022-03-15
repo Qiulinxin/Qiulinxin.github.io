@@ -1,17 +1,17 @@
 
-title: Catbook #Your awesome title
+# title: Catbook #Your awesome title
+title: QXL #Your awesome title
 # email: #youremail@domain.com
-
 email: 2627439821@qq.com
 # description: > # this means to ignore newlines until "baseurl"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 
-description: 测试
+description:
 
-baseurl: # the subpath of the site
-url: http://starry99.github.io/catbook # the base hostname & protocol for your site
+baseurl: # the subpath of the site 站点的子路径
+url: http://starry99.github.io/catbook # the base hostname & protocol for your site 站点的基本主机名和协议
 
 permalink: /:year-:month/:title
 timezone:
