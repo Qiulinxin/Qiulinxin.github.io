@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
 ## 小结
 
-1. 使用推导式能够简化代码，如下是实现函数`get_file_name()`的两种写法。
+1.使用推导式能够简化代码，如下是实现函数`get_file_name()`的两种写法。
 
 
 
@@ -159,9 +159,9 @@ print(get_file_name_2())
     ['demo.ipynb']
     获取文件名-不使用推导式:
     ['demo.ipynb']
-    
 
-2. 关于以下标准库和内置函数的不同功能
+
+2.关于以下标准库和内置函数的不同功能
 
 - `os`提供了一种使用与操作系统相关的功能的便捷式途径。
 - `open()`读写一个文件
@@ -172,7 +172,7 @@ print(get_file_name_2())
 
 [来自官方文档：https://docs.python.org/zh-cn/3.9/library/os.html](https://docs.python.org/zh-cn/3.9/library/os.html)
 
-3. 一些基本方法
+3.一些基本方法
 
 - 读取当前文件夹下所有文件`os.listdir()`，返回一个列表，列表中文件名称的排序是无序的
 - 创建空文件夹`os.mkdir('folder_name')`
