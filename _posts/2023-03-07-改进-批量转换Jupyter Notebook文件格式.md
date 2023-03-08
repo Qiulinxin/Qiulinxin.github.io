@@ -21,7 +21,7 @@ comments: true
 
 ## 原因
 
-使用脚本将`XXX.ipynb`转换为`XXX.md`文件后，原本在`Jupyter Notebook`中生成的`LaTeX`公式代码是以`$$`和`$$`包裹的，不会在`Markdown`编辑器`Typora`中被认定为`LaTeX`公式。
+使用脚本将`XXX.ipynb`转换为`XXX.md`文件后，原本在`Jupyter Notebook`中生成的`LaTeX`公式代码是以`\[`和`\]`包裹的，不会在`Markdown`编辑器`Typora`中被认定为`LaTeX`公式。
 
 
 ```LaTeX
@@ -57,7 +57,7 @@ $$
 
 ## 改进
 
-在原有代码的基础上进行改进，实现在将`XXX.ipynb`转换为`XXX.md`后自动将`$$`和`$$`替换为`$$`。
+在原有代码的基础上进行改进，实现在将`XXX.ipynb`转换为`XXX.md`后自动将`\[`和`\]`替换为`$$`。
 
 ## 思路
 
