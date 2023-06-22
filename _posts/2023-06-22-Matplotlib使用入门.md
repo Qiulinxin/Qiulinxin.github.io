@@ -161,5 +161,5 @@ fig.savefig('img_04.png')
 
 ## 参考资料
 
-[1]	Quick start guide — Matplotlib 3.7.1 documentation[EB/OL]. [2023-06-22]. [https://matplotlib.org/stable/tutorials/introductory/quick_start.html.](https://matplotlib.org/stable/tutorials/introductory/quick_start.html.)
+[1]	Quick start guide — Matplotlib 3.7.1 documentation[EB/OL]. [2023-06-22]. [https://matplotlib.org/stable/tutorials/introductory/quick_start.html](https://matplotlib.org/stable/tutorials/introductory/quick_start.html)
 
