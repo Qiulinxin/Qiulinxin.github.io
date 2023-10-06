@@ -33,7 +33,7 @@ comments: true
 由于国内访问 `vim-plug Github` 仓库过慢，所以这里使用 `Gitee` 镜像下载 `plug.vim`。
 
 -   `vim-plug Github` 仓库：`https://github.com/junegunn/vim-plug`；
--   `vim-plug Gitee` 仓库：https://gitee.com/lxyoucan/vim-plug。
+-   `vim-plug Gitee` 仓库：`https://gitee.com/lxyoucan/vim-plug`。
 
 **步骤1**：
 
