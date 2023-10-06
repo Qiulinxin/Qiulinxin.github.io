@@ -72,7 +72,7 @@ git clone https://gitee.com/mirrors/vundle-vim.git ~/.vim/bundle/Vundle.vim
 考虑到国内访问 `Github` 的难处，此处更建议使用第 2 条命令。第二条命令同样是采用的 `Gitee` 镜像用来替代访问 `Github` 仓库。
 
 -   `Vundle Github` 仓库：`https://github.com/VundleVim/Vundle.vim`；
--   `Vundle Gitee` 仓库：https://gitee.com/mirrors/vundle-vim。
+-   `Vundle Gitee` 仓库：`https://gitee.com/mirrors/vundle-vim`。
 
 ## 安装插件及相关配置
 
@@ -84,9 +84,6 @@ git clone https://gitee.com/mirrors/vundle-vim.git ~/.vim/bundle/Vundle.vim
 # 创建并打开 vim 用户配置文件
 vim ~/.vimrc
 
-```
-
-```Zimbu
 " 将下列内容写入 vimrc 后保存并退出
 " --------------------------------
 call plug#begin('~/.vim/plugged')
@@ -95,9 +92,6 @@ Plug 'SirVer/ultisnips'
 call plug#end()
 " --------------------------------
 
-```
-
-```Zimbu
 " 再次打开 vimrc，并在 vim 中输入下列命令。
 " 由于国内访问 Github 的问题，所以该命令有很大的可能会失败。
 " 目前能想到的解决办法就是多试几次，直到该命令成功运行。
@@ -152,11 +146,13 @@ filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和
 " 运行下列命令完成配置和安装插件
 " 此处注意该命令与上一命令 :PlugInstall 的区别！
 :PluginInstall
+
 ```
 
 ```shell
 # 执行下列命令用于配置 vim-autoformat
 sudo apt-get install python3-autopep8
+
 ```
 
 ## 参考资料
