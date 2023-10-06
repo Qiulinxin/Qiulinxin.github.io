@@ -60,7 +60,7 @@ cp plug.vim ~/.vim/autoload/
 
 可以选用以下任意两条命令进行安装：
 
-```
+```shell
 # 命令 1
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
@@ -114,7 +114,7 @@ let g:easycomplete_lsp_checking = 0
 
 ### 配置 Vundle 及安装 vim-autoformat 和 Rainbow Parentheses Improved
 
-```
+```shell
 " 将下列内容写入 vimrc
 
 " --------------------------------------------------------------------------------
